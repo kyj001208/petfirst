@@ -1,0 +1,258 @@
+/*베너*/
+.category ul.col-3>li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* 각 아이템 간 간격 */
+}
+
+.category img {
+    max-width: 100px; /* 이미지 최대 크기 조정 */
+}
+
+.category a {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 10px; /* 이미지와 텍스트 사이의 간격 */
+}
+.col-2{
+	display: block;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+}    
+.col-2 img{
+    display: flex;
+    max-width: 100%;	
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+.col-2>p{
+	font-size: 30px;
+}
+.col-2>a{
+	font-size: 20px;
+}
+
+.banner-btn{
+    display: inline-block;
+    background: var(--sub-pink);
+    color: var(--grey);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+/**/
+.index-main{
+	width: 100%;
+}
+.banner-wrap{
+	width:100%;
+	overflow: hidden;
+}
+.banner-container{
+	width: 300vw;
+	transition: transform 0.5s; /* 부드러운 애니메이션을 위한 트랜지션 */
+	
+}
+.banner{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 수평 가운데 정렬 */
+    flex-wrap: wrap;
+    /*width: 100%; */
+    height: 600px;
+    background-color: var(--main-pink);
+    width: 100vw;
+    float: left;
+        min-width: 100vw; /* 배너 하나가 화면 전체 너비를 차지하도록 설정 */
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+.wrapper {
+    display: block;
+    justify-content: center;
+    margin: 0 auto; /* 가로 가운데 정렬 */
+    max-width: 1200px;
+}
+.wrapper.category {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*메인*/
+
+.col-3{
+	width: 100%;
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+.col-4container{
+	display: flex;
+	width: 100%;
+	
+	background-color: var(--sub-grey);
+	justify-content: center;
+    align-items: center;
+}
+.col-4{
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+	padding: 0 50px;
+}
+.col-4img{
+	position: relative;
+	height: 200px;
+	padding: 0 50px;
+    margin: 0px;
+}
+.col-4>h1{
+	display: flex;
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+.col-4>p{
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+h2{
+	font-size: 40px;
+	padding: 10px 0;
+	
+}
+#showMoreBtn{
+	display: inline-block;
+    padding: 5px;
+    font-size: 15px; /* 글자 크기 */
+    color: var(--grey); /* 글자 색상 */
+    background-color: transparent;
+    border: none; /* 테두리 없음 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    text-decoration: none; /* 링크 장식 없음 */
+}
+.col-5{
+	width: 100%;
+	
+}
+.swiper-slide {
+	max-width: 280px;
+    margin-right: 28px; /* 오른쪽 간격 조절 */
+}
+
+/* 마지막 요소의 오른쪽 간격을 없애기 위해 추가 */
+.swiper-slide:last-child {
+    margin-right: 0;
+}
+
+.swiper-slide-1{
+	display: inline-block;
+
+}
+
+.col5-1-img{
+	width: 280px;
+	height: 280px;
+}
+.col5-text{
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+}
+.col5-text1{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.col5-text1>span{
+	padding-top: 15px;
+}
+
+.btn-cart{
+	background-color: transparent;
+	color: var(--grey);
+	font-size: 20px;
+}
+.btn-cart:hover{
+	background-color: transparent;
+	color: var(--logo-brown);
+}
+
+.hidden {
+    display: none; /* 기본적으로 숨김 */
+}
+.col-6{
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	width:100%;
+	min-height: auto;
+	background-color: var(--main-pink);
+	padding: 30px;
+}
+
+.col-6-text{
+	display: inline-block;
+	width: 100%;
+	padding-top: 40px;
+	padding-left: 40px;
+	line-height: 50px;
+	
+	
+}
+
+.col-6-text-inner {
+	display: inline-block;
+	
+}
+
+.wrapper>p{
+	font-size: 20px;
+}
+.inner-wrap{
+	background-color: var(--white);
+	min-height: 400px;
+	padding: 20px;
+}
+.ri-time-fill,
+.time{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.col-6-text-inner>div>p{
+	font-size: 20px;
+}
+.dis-per{
+	font-size: 30px !important;
+	color: red;
+	margin-right: 5px;
+}
+.dis-pri{
+	font-size: 30px !important;
+	margin-right: 10px;
+}
+
+.ri-time-fill{
+	color: var(--point-purple);
+}
